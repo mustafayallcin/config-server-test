@@ -1,0 +1,20 @@
+application.config-server.keycloak-config.client-secret:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Client Secret"
+  description: "Client secret value"
+  sectionName: "CLIENT_SECRET"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "client-secret"
+application.keycloak-admin.app-resource-secret:
+  configValueCount: "SINGLE"
+  configValueType: "STRING"
+  displayName: "Keycloak App Resource Secret"
+  description: "Keycloak App resource secret value"
+  sectionName: "APP_RESOURCE_SECRET"
+  encrypted: true
+  rule: null
+  restartRequired: false
+  defaultValue: "keycloak-resource-secret"
