@@ -1,0 +1,22 @@
+application:
+  config-server:
+    keycloak-config:
+      client-secret: "{cipher}0258cd587d4b5e18dbc9d3d5c87ca61f9e1b203b7a7ee9d75d6cbd41dc01f5533a7bc02790d280ee0e0a9c743c593b56e2c9916acf23cb37ed2005826c053751"
+  keycloak-admin:
+    app-resource-secret: "{cipher}2799ee99e3e3c50248f7163a908eace9fdca13a282ded9abfcd3d9910f3452683d8104348992e23952d9e2b359e27b21177f3d217903a9360459bcd913ae8766"
+    password: "{cipher}88dc93a5a59de27de0873d4c116e87df422be3aee3704d26ef7d24973819c076"
+    username: "{cipher}87531fa1b309fa58d4eb7596cc4c50faea3963c217779cdba8b353d0da28333c"
+  security:
+    key: "{cipher}4eae84c13d21f3d14c448909f68a6f74d591ec856567a60afae04a47a1678d0c"
+  sis-phone-properties:
+    password: "{cipher}34b83007056ddd0cce61901e5ddd6ca77a21497aa5945ab9929c7dde97ced877"
+security:
+  api-access:
+    access-token: "{cipher}a315f8e1175584fd2fb0ab6fe30e39847787784325b94d1441f92c4ef98ba49eef9fc02831ac06200c7201b163eafe94d2818568efc422c2c7c1390348246c31"
+spring:
+  datasource:
+    password: "{cipher}7473473507e7938f2649f604e9fb6ba97d8bb4e915dac1c17971b848654c38e6"
+    username: "{cipher}25167ce40c343347636f7f167efc95f275247338146688db2b26ca3ec99152ef"
+  elasticsearch:
+    password: "{cipher}f69034140fc0c65143bf5bfd40ada64f3b658f3e3bad457f661e2e4740c49757"
+    username: "{cipher}0c40340f77deaf1b3e3d11f0f6cd188618f127460d029d8f287f1442d99e8c60"
